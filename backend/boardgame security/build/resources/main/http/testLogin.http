@@ -1,0 +1,13 @@
+POST http://localhost:8080/user/setbridge
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email":"sonaan@yandex.ru",
+  "password": "111111"
+}
+
+### the other request
+POST http://localhost:8080/user/setbridge/sonaan/111111
+Content-Type: application/json
+Accept: application/json
